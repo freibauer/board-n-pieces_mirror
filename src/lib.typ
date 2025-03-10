@@ -100,6 +100,10 @@
   )
 }
 
+#let mirrorfen(fenx) = {
+  import "internals.typ": mirror-fen
+  position(mirror-fen(fenx))
+}
 
 /// Creates an array containing the successive positions of the game with the
 /// given turns.
